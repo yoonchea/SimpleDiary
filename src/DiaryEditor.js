@@ -64,4 +64,4 @@ const DiaryEditor = ({onCreate}) => {
   )
 }
 
-export default DiaryEditor;
+export default React.memo(DiaryEditor);  //React.memo 를 사용하여 최적화
